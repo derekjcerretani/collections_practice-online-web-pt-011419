@@ -26,6 +26,6 @@ def kesha_maker(array)
     new_string = string.split(" ").join(" ")
     new_string[2] = "$"
     kesha_array << new_string
-    binding.pry
   end
+  kesha_array
 end
