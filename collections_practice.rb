@@ -39,8 +39,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index.collect do |element, index| 
-    element << "s" 
-    index[1].split("s")
-  end
+  second_element = array.slice(0, 1)
 end
