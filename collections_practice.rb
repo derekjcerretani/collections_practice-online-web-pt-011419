@@ -39,5 +39,5 @@ def sum_array(array)
 end
 
 def add_s(array)
-  second_element = array.slice(0, 2)
+  second_element = array.slice(1, 1)
 end
