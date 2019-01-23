@@ -40,4 +40,7 @@ end
 
 def add_s(array)
   second_element = array.slice(1, 1)
+  array.each {|word| word << "s"}
+  array[1] = second_element
+  array
 end
