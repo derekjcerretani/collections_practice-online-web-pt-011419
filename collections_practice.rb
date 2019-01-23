@@ -40,8 +40,7 @@ end
 
 def add_s(array)
   second_element = array.slice!(1, 1)
-  array.each do |word| word << "s"
-  end
+  array.each { |word| word << "s" }
   array.insert(1, second_element.join(" "))
   array
 end
