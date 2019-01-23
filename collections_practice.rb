@@ -40,9 +40,8 @@ end
 
 def add_s(array)
   second_element = array.slice(1, 1)
-  binding.pry
-  array.each do |word| word << "s"
-  end
+  #array.each do |word| word << "s"
+  #end
   #array[1] = second_element.join(" ")
   array
 end
