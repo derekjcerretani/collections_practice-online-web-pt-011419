@@ -39,7 +39,7 @@ def sum_array(array)
 end
 
 def add_s(array)
-  second_element = array.slice(1, 1)
+  second_element = array.slice!(1, 1)
   #array.each do |word| word << "s"
   #end
   #array[1] = second_element.join(" ")
