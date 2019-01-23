@@ -22,7 +22,8 @@ end
 
 def kesha_maker(array)
   array.each do |string|
-    string.split(" ").join(" ")
+    new_string = string.split(" ").join(" ")
+    new_string[2] = "$"
     binding.pry
   end
 end
