@@ -24,4 +24,5 @@ def kesha_maker(array)
   array.each do |string|
     string.split(" ")
     binding.pry
+  end
 end
